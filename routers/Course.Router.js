@@ -1,7 +1,7 @@
 const express = require("express");
 const CourseRouter = express.Router();
 
-CourseRouter.get("/courses", function (req, res) {
+CourseRouter.get("/", function (req, res) {
   res.json({
     message: "courses",
   });
