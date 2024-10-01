@@ -1,16 +1,16 @@
 const express = require("express");
-const userRouter = express.Router();
+const UserRouter = express.Router();
 
-userRouter.post("/signup", function (req, res) {
+UserRouter.post("/signup", function (req, res) {
   res.json({
     message: "sign up route",
   });
 });
 
-userRouter.post("/signin", function (req, res) {
+UserRouter.post("/signin", function (req, res) {
   res.json({
     message: "sign in route",
   });
 });
 
-module.exports = userRouter;
+module.exports = UserRouter;
