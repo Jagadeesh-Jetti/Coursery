@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "index.js"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +13,7 @@
   "dependencies": {
     "express": "^4.21.0",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.6.3"
+    "mongoose": "^8.6.3",
+    "Router": "^2.1.0"
   }
 }
